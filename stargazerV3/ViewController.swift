@@ -28,10 +28,9 @@ class ViewController: UIViewController {
         addSphere(material: "moon_material.jpeg")
         addSphere(material: "moon_material.jpeg")
       
-        
     }
     
-    func addSphere(){
+    func addSphere(material: String){
         let sphere = SCNNode(geometry: SCNSphere(radius: 0.25))
         sphere.position = SCNVector3(Float.random(in: 0 ..< 5),1 ,Float.random(in: 0 ..< 5))
         sphere.geometry?.firstMaterial?.diffuse.contents = material

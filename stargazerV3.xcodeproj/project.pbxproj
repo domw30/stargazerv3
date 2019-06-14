@@ -14,6 +14,7 @@
 		3FEEEE4C22B25644003B1955 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FEEEE4A22B25644003B1955 /* LaunchScreen.storyboard */; };
 		3FEEEE5722B25645003B1955 /* stargazerV3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FEEEE5622B25645003B1955 /* stargazerV3Tests.swift */; };
 		3FEEEE6222B25645003B1955 /* stargazerV3UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FEEEE6122B25645003B1955 /* stargazerV3UITests.swift */; };
+		3FEEEEB422B3A8F0003B1955 /* Icon-128 (1).png in Resources */ = {isa = PBXBuildFile; fileRef = 3FEEEEB322B3A8F0003B1955 /* Icon-128 (1).png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		3FEEEE5D22B25645003B1955 /* stargazerV3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = stargazerV3UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FEEEE6122B25645003B1955 /* stargazerV3UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = stargazerV3UITests.swift; sourceTree = "<group>"; };
 		3FEEEE6322B25645003B1955 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FEEEEB322B3A8F0003B1955 /* Icon-128 (1).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-128 (1).png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				3FEEEE4822B25644003B1955 /* Assets.xcassets */,
 				3FEEEE4A22B25644003B1955 /* LaunchScreen.storyboard */,
 				3FEEEE4D22B25644003B1955 /* Info.plist */,
+				3FEEEEB322B3A8F0003B1955 /* Icon-128 (1).png */,
 			);
 			path = stargazerV3;
 			sourceTree = "<group>";
@@ -231,6 +234,7 @@
 			files = (
 				3FEEEE4C22B25644003B1955 /* LaunchScreen.storyboard in Resources */,
 				3FEEEE4922B25644003B1955 /* Assets.xcassets in Resources */,
+				3FEEEEB422B3A8F0003B1955 /* Icon-128 (1).png in Resources */,
 				3FEEEE4722B25643003B1955 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
