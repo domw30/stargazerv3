@@ -16,8 +16,6 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let scene = SCNScene(named: "art.scnassets/ship.scn")!
-        sceneView.scene = scene
         // Do any additional setup after loading the view.
         let config = ARWorldTrackingConfiguration()
         config.planeDetection = .horizontal
@@ -25,32 +23,18 @@ class ViewController: UIViewController {
         
         sceneView.session.run(config)
         
-        addSphere()
-        addSphere()
-        addSphere()
-        addSphere()
-        addSphere()
-        addSphere()
-        addSphere()
-        addSphere()
-        addSphere()
-        addSphere()
-        addSphere()
-        addSphere()
-        addSphere()
-        addSphere()
-        addSphere()
-        addSphere()
-        addSphere()
-        addSphere()
-        addSphere()
-        addSphere()
+        addSphere(material: "texture.jpg")
+        addSphere(material: "sun.jpg")
+        addSphere(material: "moon_material.jpeg")
+        addSphere(material: "moon_material.jpeg")
+      
         
     }
     
     func addSphere(){
-        let sphere = SCNNode(geometry: SCNSphere(radius: 0.009))
-        sphere.position = SCNVector3(Float.random(in: 0 ..< 1),1 ,Float.random(in: 0 ..< 1))
+        let sphere = SCNNode(geometry: SCNSphere(radius: 0.25))
+        sphere.position = SCNVector3(Float.random(in: 0 ..< 5),1 ,Float.random(in: 0 ..< 5))
+        sphere.geometry?.firstMaterial?.diffuse.contents = material
         sceneView.scene.rootNode.addChildNode(sphere)
     }
     
